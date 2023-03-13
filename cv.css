@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: aquamarine;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile-image{
+    height: 150px;
+    width: 100px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.image{
+    float: left;
+}
+.name{
+    float: left;
+    padding-top: 50px;
+}
+.contact{
+    float: right;
+    padding: 25px;
+}
+.contact a{
+    color: darkorange;
+    text-decoration: none;
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+}
+.personal-information{
+
+}
+.left-personal{
+    float: left;
+    width: 30%;
+}
+.right-personal{
+    float: right;
+    width: 70%;
+    text-align: justify;
+}
+.common-hr{
+    border: 1px solid black;
+    margin: 20 auto;
+}
+.left-work{
+    width: 30%;
+    float: left;
+}
+.right-work{
+    width: 70%;
+    float: right;
+}
+.work{
+    color: tomato;
+}
+.education-left{
+    width: 30%;
+    float: left;
+}
+.education-right{
+    display: flex;
+    width: 70%;
+
+}
+.jsc{
+    
+}
+.ssc{
+    
+}
+.hsc{
+    
+}
+.contact-foot{
+    color: red;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+footer ul{
+    text-align: center;
+}
+footer ul li{
+    list-style-type: none;
+    float: left;
+    margin-left: 15px;
+    text-align: center;
+    margin-left: 100px;
+}
+footer ul li a{
+    text-decoration: none;
+    text-align: center;
+}
+footer ul li a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+.alo{
+    text-align: center;
+}
